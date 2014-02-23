@@ -195,3 +195,5 @@ with open(IN_FILE) as f:
 with open(OUT_FILE, mode='w') as f:
     for x in output:
         f.write('{}\n'.format(x))
+
+print('all done')
